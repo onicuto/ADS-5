@@ -1,8 +1,11 @@
 // Copyright 2025 NNTU-CS
-#include "tstack.h"
+#include "alg.h"
+
 #include <cctype>
 #include <sstream>
 #include <string>
+
+#include "tstack.h"
 
 namespace {
 bool isOperator(char ch) {
