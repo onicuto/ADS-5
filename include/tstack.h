@@ -5,7 +5,8 @@
 #include <array>
 #include <stdexcept>
 
-template <typename T, int size> class TStack {
+template <typename T, int size>
+class TStack {
 private:
   std::array<T, size> data;
   int pos;
