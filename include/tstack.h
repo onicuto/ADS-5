@@ -6,11 +6,11 @@
 #include <stdexcept>
 
 template <typename T, int size> class TStack {
-private:
+ private:
   std::array<T, size> data;
   int pos;
 
-public:
+ public:
   TStack() : pos(0) {}
 
   bool isEmpty() const { return pos == 0; }
